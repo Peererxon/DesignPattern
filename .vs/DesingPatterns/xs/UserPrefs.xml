@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{5CEC5B36-C3CF-4725-9AFD-BA2C73736C25}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DesingPatterns/Singleton/Singleton.cs">
+    <Files>
+      <File FileName="DesingPatterns/Program.cs" Line="8" Column="6" />
+      <File FileName="DesingPatterns/Singleton/Singleton.cs" Line="4" Column="15" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DesingPatterns" expanded="True">
+            <Node name="DesingPatterns" expanded="True">
+              <Node name="Singleton" expanded="True">
+                <Node name="Singleton.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.DesingPatterns PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+</Properties>
