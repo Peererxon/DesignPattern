@@ -1,0 +1,12 @@
+/Users/andersongil/Documents/peererxon/trabajo/cursos/patrones-c#/DesingPatterns/Tools/bin/Debug/net6.0/Tools.deps.json
+/Users/andersongil/Documents/peererxon/trabajo/cursos/patrones-c#/DesingPatterns/Tools/bin/Debug/net6.0/Tools.dll
+/Users/andersongil/Documents/peererxon/trabajo/cursos/patrones-c#/DesingPatterns/Tools/bin/Debug/net6.0/Tools.pdb
+/Users/andersongil/Documents/peererxon/trabajo/cursos/patrones-c#/DesingPatterns/Tools/obj/Debug/net6.0/Tools.csproj.AssemblyReference.cache
+/Users/andersongil/Documents/peererxon/trabajo/cursos/patrones-c#/DesingPatterns/Tools/obj/Debug/net6.0/Tools.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andersongil/Documents/peererxon/trabajo/cursos/patrones-c#/DesingPatterns/Tools/obj/Debug/net6.0/Tools.AssemblyInfoInputs.cache
+/Users/andersongil/Documents/peererxon/trabajo/cursos/patrones-c#/DesingPatterns/Tools/obj/Debug/net6.0/Tools.AssemblyInfo.cs
+/Users/andersongil/Documents/peererxon/trabajo/cursos/patrones-c#/DesingPatterns/Tools/obj/Debug/net6.0/Tools.csproj.CoreCompileInputs.cache
+/Users/andersongil/Documents/peererxon/trabajo/cursos/patrones-c#/DesingPatterns/Tools/obj/Debug/net6.0/Tools.dll
+/Users/andersongil/Documents/peererxon/trabajo/cursos/patrones-c#/DesingPatterns/Tools/obj/Debug/net6.0/refint/Tools.dll
+/Users/andersongil/Documents/peererxon/trabajo/cursos/patrones-c#/DesingPatterns/Tools/obj/Debug/net6.0/Tools.pdb
+/Users/andersongil/Documents/peererxon/trabajo/cursos/patrones-c#/DesingPatterns/Tools/obj/Debug/net6.0/ref/Tools.dll

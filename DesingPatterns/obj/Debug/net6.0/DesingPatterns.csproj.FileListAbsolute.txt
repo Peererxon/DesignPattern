@@ -1,0 +1,15 @@
+/Users/andersongil/Documents/peererxon/trabajo/cursos/patrones-c#/DesingPatterns/DesingPatterns/bin/Debug/net6.0/DesingPatterns
+/Users/andersongil/Documents/peererxon/trabajo/cursos/patrones-c#/DesingPatterns/DesingPatterns/bin/Debug/net6.0/DesingPatterns.deps.json
+/Users/andersongil/Documents/peererxon/trabajo/cursos/patrones-c#/DesingPatterns/DesingPatterns/bin/Debug/net6.0/DesingPatterns.runtimeconfig.json
+/Users/andersongil/Documents/peererxon/trabajo/cursos/patrones-c#/DesingPatterns/DesingPatterns/bin/Debug/net6.0/DesingPatterns.dll
+/Users/andersongil/Documents/peererxon/trabajo/cursos/patrones-c#/DesingPatterns/DesingPatterns/bin/Debug/net6.0/DesingPatterns.pdb
+/Users/andersongil/Documents/peererxon/trabajo/cursos/patrones-c#/DesingPatterns/DesingPatterns/obj/Debug/net6.0/DesingPatterns.csproj.AssemblyReference.cache
+/Users/andersongil/Documents/peererxon/trabajo/cursos/patrones-c#/DesingPatterns/DesingPatterns/obj/Debug/net6.0/DesingPatterns.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andersongil/Documents/peererxon/trabajo/cursos/patrones-c#/DesingPatterns/DesingPatterns/obj/Debug/net6.0/DesingPatterns.AssemblyInfoInputs.cache
+/Users/andersongil/Documents/peererxon/trabajo/cursos/patrones-c#/DesingPatterns/DesingPatterns/obj/Debug/net6.0/DesingPatterns.AssemblyInfo.cs
+/Users/andersongil/Documents/peererxon/trabajo/cursos/patrones-c#/DesingPatterns/DesingPatterns/obj/Debug/net6.0/DesingPatterns.csproj.CoreCompileInputs.cache
+/Users/andersongil/Documents/peererxon/trabajo/cursos/patrones-c#/DesingPatterns/DesingPatterns/obj/Debug/net6.0/DesingPatterns.dll
+/Users/andersongil/Documents/peererxon/trabajo/cursos/patrones-c#/DesingPatterns/DesingPatterns/obj/Debug/net6.0/refint/DesingPatterns.dll
+/Users/andersongil/Documents/peererxon/trabajo/cursos/patrones-c#/DesingPatterns/DesingPatterns/obj/Debug/net6.0/DesingPatterns.pdb
+/Users/andersongil/Documents/peererxon/trabajo/cursos/patrones-c#/DesingPatterns/DesingPatterns/obj/Debug/net6.0/DesingPatterns.genruntimeconfig.cache
+/Users/andersongil/Documents/peererxon/trabajo/cursos/patrones-c#/DesingPatterns/DesingPatterns/obj/Debug/net6.0/ref/DesingPatterns.dll
