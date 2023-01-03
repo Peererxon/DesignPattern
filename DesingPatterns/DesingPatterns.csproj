@@ -9,8 +9,10 @@
 
   <ItemGroup>
     <None Remove="Singleton\" />
+    <None Remove="Factory\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Singleton\" />
+    <Folder Include="Factory\" />
   </ItemGroup>
 </Project>
