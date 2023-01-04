@@ -1,0 +1,15 @@
+﻿@{
+    // la instruccion antes de VIewBag lo castea
+    decimal totalLocal = (decimal)ViewBag.totalLocal;
+    decimal foreignTotal = (decimal)ViewBag.foreignTotal;
+}
+
+<div class="row">
+    <div class="col-12">
+        <label>Total Local</label>
+        <b>@totalLocal</b> <br />
+
+        <label>Total Extranjero</label>
+        <b>@foreignTotal</b> <br />
+    </div>
+</div>

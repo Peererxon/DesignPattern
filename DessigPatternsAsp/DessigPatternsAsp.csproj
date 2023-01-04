@@ -13,8 +13,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="Configuration\" />
+    <None Remove="Views\ProductDetail\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Configuration\" />
+    <Folder Include="Views\ProductDetail\" />
   </ItemGroup>
 </Project>

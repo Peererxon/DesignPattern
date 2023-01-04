@@ -1,22 +1,22 @@
-﻿<Properties StartupConfiguration="{E319C17E-FFF4-42F5-8FF7-14EC26E1CC6A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DessigPatternsAsp/Controllers/HomeController.cs">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{E319C17E-FFF4-42F5-8FF7-14EC26E1CC6A}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.DessigPatternsAsp PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DesingPatterns/Program.cs">
     <Files>
-      <File FileName="DesingPatterns/Program.cs" Line="14" Column="1" />
-      <File FileName="Tools/Class1.cs" Line="12" Column="175" />
-      <File FileName="DessigPatternsAsp/Controllers/HomeController.cs" Line="19" Column="1" />
-      <File FileName="DessigPatternsAsp/Configuration/Config.cs" Line="6" Column="17" />
-      <File FileName="DessigPatternsAsp/Properties/launchSettings.json" Line="1" Column="1" />
-      <File FileName="DessigPatternsAsp/Program.cs" Line="4" Column="1" />
+      <File FileName="DesingPatterns/Factory/Factory.cs" Line="58" Column="39" />
+      <File FileName="DesingPatterns/Program.cs" Line="16" Column="65" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DesingPatterns" expanded="True">
             <Node name="DesingPatterns" expanded="True">
-              <Node name="Singleton" expanded="True" />
+              <Node name="Factory" expanded="True" />
             </Node>
             <Node name="DessigPatternsAsp" expanded="True">
-              <Node name="Configuration" expanded="True" />
               <Node name="Controllers" expanded="True" />
               <Node name="Properties" expanded="True" />
             </Node>
@@ -26,12 +26,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.DesingPatterns PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.DessigPatternsAsp PreferredExecutionTarget="/Applications/Safari.app" />
-  <MultiItemStartupConfigurations />
 </Properties>
