@@ -1,30 +1,53 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{E319C17E-FFF4-42F5-8FF7-14EC26E1CC6A}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.DessigPatternsAsp PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+﻿<Properties StartupConfiguration="{E319C17E-FFF4-42F5-8FF7-14EC26E1CC6A}|Default" GitUserInfo="UsingGIT">
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DesingPatterns/Program.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.DessigPatternsAsp PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DessigPatternsAsp/Controllers/ProductDetailController.cs">
     <Files>
-      <File FileName="DesingPatterns/Factory/Factory.cs" Line="58" Column="39" />
-      <File FileName="DesingPatterns/Program.cs" Line="16" Column="65" />
+      <File FileName="DesingPatterns/Factory/Factory.cs" Line="32" Column="1" />
+      <File FileName="DesingPatterns/Program.cs" />
+      <File FileName="Tools/Earn/IEarn.cs" />
+      <File FileName="Tools/Earn/LocalEarn.cs" />
+      <File FileName="Tools/Earn/EarnFactory.cs" />
+      <File FileName="DessigPatternsAsp/Controllers/ProductDetailController.cs" Line="17" Column="18" />
+      <File FileName="DessigPatternsAsp/Views/ProductDetail/Index.cshtml" />
+      <File FileName="DessigPatternsAsp/log.txt" />
+      <File FileName="Tools/Earn/ForeignEarn.cs" />
+      <File FileName="Tools/Earn/ForeignEarnFactory.cs" />
+      <File FileName="DessigPatternsAsp/Controllers/HomeController.cs" />
+      <File FileName=".vs/DesingPatterns/xs/project-cache/DessigPatternsAsp-Debug.json" Line="1" Column="1" />
+      <File FileName=".vs/DesingPatterns/xs/UserPrefs.xml" Line="1" Column="1" />
+      <File FileName="DesingPatterns/DependencyInyection/Beer.cs" Line="16" Column="4" />
+      <File FileName="DessigPatternsAsp/Program.cs" Line="10" Column="74" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DesingPatterns" expanded="True">
             <Node name="DesingPatterns" expanded="True">
+              <Node name="DependencyInyection" expanded="True" />
               <Node name="Factory" expanded="True" />
             </Node>
             <Node name="DessigPatternsAsp" expanded="True">
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="ProductDetailController.cs" selected="True" />
+              </Node>
               <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="ProductDetail" expanded="True" />
+              </Node>
             </Node>
-            <Node name="Tools" expanded="True" />
+            <Node name="Tools" expanded="True">
+              <Node name="Earn" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.DesingPatterns PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

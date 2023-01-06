@@ -10,9 +10,11 @@
   <ItemGroup>
     <None Remove="Singleton\" />
     <None Remove="Factory\" />
+    <None Remove="DependencyInyection\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Singleton\" />
     <Folder Include="Factory\" />
+    <Folder Include="DependencyInyection\" />
   </ItemGroup>
 </Project>

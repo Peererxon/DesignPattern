@@ -11,15 +11,22 @@ namespace DessigPatternsAsp.Controllers
 {
     public class ProductDetailController : Controller
     {
+        private LocalEarnFactory _localEarnFactory;
+        public ProductDetailController(LocalEarnFactory localEarnFactory)
+        {
+            _localEarnFactory = localEarnFactory;
+        }
+
+
         // GET: /<controller>/
         public IActionResult Index(decimal total)
         {
             //Factories
-            LocalEarnFactory localEarnFactory = new LocalEarnFactory(0.20m);
+            
             ForeignEarnFactory foreignEarnFactory = new ForeignEarnFactory(0.30m, 20);
 
             //Productos
-            var localEarn = localEarnFactory.GetEarn();
+            var localEarn = _localEarnFactory.GetEarn();
             var foreignEarn = foreignEarnFactory.GetEarn();
 
             //Esto es un objeto global de asp.net donde podemos agregarle el atributo que deseemos
