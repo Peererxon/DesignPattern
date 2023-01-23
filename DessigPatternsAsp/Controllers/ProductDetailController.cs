@@ -12,6 +12,7 @@ namespace DessigPatternsAsp.Controllers
     public class ProductDetailController : Controller
     {
         private LocalEarnFactory _localEarnFactory;
+        //Dependencia LocalEarnFactory se recibe por medio de inyeccion en el constructor
         public ProductDetailController(LocalEarnFactory localEarnFactory)
         {
             _localEarnFactory = localEarnFactory;

@@ -11,6 +11,7 @@ builder.Services.Configure<MyConfig>(myconfig);
 
 //Esto crea un objeto transendente para usarlo en el constructor
 //Uso de inyeccion de dependencias evitando el new dentro del constructor
+//Se esta usando el ProductDetail.cs
 builder.Services.AddTransient((factory) =>
 {
     //Esta linea realmente lo que hicimos fue agregar el valor en appsettings.json para que se vea mejor y poder reutilizarlo en la app
