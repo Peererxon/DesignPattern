@@ -15,6 +15,7 @@ namespace DessigPatternsAsp.Controllers
         //Dependencia LocalEarnFactory se recibe por medio de inyeccion en el constructor
         public ProductDetailController(LocalEarnFactory localEarnFactory)
         {
+            //Uso de inyeccion de dependencias
             _localEarnFactory = localEarnFactory;
         }
 
