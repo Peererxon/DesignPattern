@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HgkOt+AMr/0KixW2/Z1JLSxZCxb4uvc4z2pwfnthnpDbmA5Eb70MIoJB05QP8BxDj+BjEAo0DKofBfV7FNV5Xg==",
+  "dgSpecHash": "hKl0R7n0T0uZeFhCyvWmZWP+wb5DEgmgMsgHyPsiLQL2PQOG56I6FroLYMGlpVaAZMWtjNLJgFqyXdRDRRz99A==",
   "success": true,
-  "projectFilePath": "/Users/andersongil/Documents/peererxon/trabajo/cursos/patrones-c#/DesingPatterns/DessigPatternsAsp/DessigPatternsAsp.csproj",
+  "projectFilePath": "C:\\Users\\Administrador\\Desktop\\trabajo\\cursos\\DesignPattern\\DessigPatternsAsp\\DessigPatternsAsp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
