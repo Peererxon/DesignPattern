@@ -1,13 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1704.2
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesingPatterns", "DesingPatterns\DesingPatterns.csproj", "{5CEC5B36-C3CF-4725-9AFD-BA2C73736C25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesingPatterns", "DesingPatterns\DesingPatterns.csproj", "{5CEC5B36-C3CF-4725-9AFD-BA2C73736C25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DessigPatternsAsp", "DessigPatternsAsp\DessigPatternsAsp.csproj", "{E319C17E-FFF4-42F5-8FF7-14EC26E1CC6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DessigPatternsAsp", "DessigPatternsAsp\DessigPatternsAsp.csproj", "{E319C17E-FFF4-42F5-8FF7-14EC26E1CC6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools", "Tools\Tools.csproj", "{58CC6314-614F-4066-8A0F-AA6792613C35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tools", "Tools\Tools.csproj", "{58CC6314-614F-4066-8A0F-AA6792613C35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Models", "DesignPatterns.Models\DesignPatterns.Models.csproj", "{5EDAECBD-521C-4D81-9EF1-678108EBBB46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Repository", "DesignPatterns.Repository\DesignPatterns.Repository.csproj", "{D3F4D670-2E69-4719-B8BA-DE587CAC1B8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{58CC6314-614F-4066-8A0F-AA6792613C35}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58CC6314-614F-4066-8A0F-AA6792613C35}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58CC6314-614F-4066-8A0F-AA6792613C35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EDAECBD-521C-4D81-9EF1-678108EBBB46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EDAECBD-521C-4D81-9EF1-678108EBBB46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EDAECBD-521C-4D81-9EF1-678108EBBB46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EDAECBD-521C-4D81-9EF1-678108EBBB46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3F4D670-2E69-4719-B8BA-DE587CAC1B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F4D670-2E69-4719-B8BA-DE587CAC1B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F4D670-2E69-4719-B8BA-DE587CAC1B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3F4D670-2E69-4719-B8BA-DE587CAC1B8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

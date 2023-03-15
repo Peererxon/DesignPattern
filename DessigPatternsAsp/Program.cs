@@ -1,4 +1,7 @@
-﻿using DessigPatternsAsp.Configuration;
+﻿using DesignPatterns.Models.Data;
+using DesignPatterns.Repository;
+using DessigPatternsAsp.Configuration;
+using Microsoft.EntityFrameworkCore;
 using Tools.Earn;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,6 +21,15 @@ builder.Services.AddTransient((factory) =>
     decimal earnPercentage = myconfig.GetValue<decimal>("LocalPercentage");
     return new LocalEarnFactory(earnPercentage);
 });
+
+//para que el repositorio tenga el contexto inyectado en el constructor
+builder.Services.AddDbContext<DesingpatternContext>( options=>
+{
+    options.UseMySql(configuration.GetConnectionString("Connection"), ServerVersion.Parse("8.0.29-mysql"));
+} );
+
+// esto hace que el controlador tenga el mismo objeto
+builder.Services.AddScoped(typeof(IRepository<>), typeof( Repository<>));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
