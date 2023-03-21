@@ -30,6 +30,7 @@ builder.Services.AddDbContext<DesingpatternContext>( options=>
 
 // esto hace que el controlador tenga el mismo objeto
 builder.Services.AddScoped(typeof(IRepository<>), typeof( Repository<>));
+builder.Services.AddScoped<IUnitOfWork,UnitOfWork>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

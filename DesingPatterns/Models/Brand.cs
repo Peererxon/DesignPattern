@@ -3,11 +3,9 @@ using System.Collections.Generic;
 
 namespace DesingPatterns.Models;
 
-public partial class Beer
+public partial class Brand
 {
-    public int BeerId { get; set; }
+    public string BrandId { get; set; } = null!;
 
     public string? Name { get; set; }
-
-    public string? Style { get; set; }
 }

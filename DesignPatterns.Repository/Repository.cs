@@ -54,3 +54,4 @@ namespace DesignPatterns.Repository
             _context.Entry(data).State = EntityState.Modified;
         }
     }
+}
