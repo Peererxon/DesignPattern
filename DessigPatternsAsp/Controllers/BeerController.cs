@@ -1,6 +1,7 @@
 ﻿using DesignPatterns.Models.Data;
 using DesignPatterns.Repository;
 using DessigPatternsAsp.Models.ViewModels;
+using DessigPatternsAsp.Strategy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
@@ -30,8 +31,7 @@ namespace DessigPatternsAsp.Controllers
         [HttpGet]
         public IActionResult Add()
         {
-            var brands = _unitOfWork.Brands.Get();
-            ViewBag.Brands = new SelectList(brands, "BrandId", "Name");
+            GetBrandsData();
             return View();
         }
 
@@ -40,34 +40,25 @@ namespace DessigPatternsAsp.Controllers
         {
             if (!ModelState.IsValid)
             {
-                var brands = _unitOfWork.Brands.Get();
-                ViewBag.Brands = new SelectList(brands, "BrandId", "Name");
+                GetBrandsData();
                 return View("Add", beerVM);
             }
+            //strategy con 2 strategias
+            var context = beerVM.BrandId == null
+                ? new BeerContext(new BeerWithBrandStrategy())
+                : new BeerContext(new BeerStrategy());
 
-            var beer = new Beer();
-            beer.Name = beerVM.Name;
-            beer.Style = beerVM.Style;
-            //si no se ha seleccionado se crea, sino se usa la seleccionada
-            if (beerVM.BrandId == null) {
-                var brand = new Brand();
-                brand.Name = beerVM.OtherBrand;
-                // se debe cambiar el modelo de beer y no usar string
-                brand.BrandId = Guid.NewGuid();
-                //aqui debe de ser el brand.ID que es un GUI
-                beer.Bid = brand.BrandId;//brand.BrandId;
-
-                _unitOfWork.Brands.Add(brand);
-            } else
-            {
-                beer.Bid= beerVM.BrandId;
-            }
-
-            _unitOfWork.Beers.Add(beer);
-            _unitOfWork.Save(); // con esto hace una sola conexion en lugar de llamar n veces a la db
-
+            context.Add(beerVM, _unitOfWork);
             return RedirectToAction("Index");
 
         }
+        #region HELPERS
+
+        private void GetBrandsData()
+        {
+            var brands = _unitOfWork.Brands.Get();
+            ViewBag.Brands = new SelectList(brands, "BrandId", "Name");
+        }
+        #endregion
     }
 }
