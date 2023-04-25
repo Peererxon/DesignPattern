@@ -1,4 +1,5 @@
-﻿using DesingPatterns.Factory;
+﻿using DesingPatterns.BuilderPattern;
+using DesingPatterns.Factory;
 using DesingPatterns.Models;
 using DesingPatterns.RepositoryPattern;
 using DesingPatterns.Strategy;
@@ -75,12 +76,29 @@ class Program
                     unitOfWork.Save(); // con esto se mandan todas las entidades en una sola peticion
                 }*/
         // cambio la estrategia en tiempo de ejecucion
-        var context = new Context( new MotoStrategy());
-        context.Run();
-        context.Strategy = new CarStrategy();
-        context.Run();
-        context.Strategy = new BicycleStrategy();
-        context.Run();
+        /*        var context = new Context( new MotoStrategy());
+                context.Run();
+                context.Strategy = new CarStrategy();
+                context.Run();
+                context.Strategy = new BicycleStrategy();
+                context.Run();*/
+
+        //builder
+        //PreparedDrink preparedDrink = new PreparedDrink(new List<string>(), 0,500,10); problema
+        var builder = new PreparedAlcoholicDrinkConcreteBuilder();
+        var barmanDirector = new BarmanDirector(builder);
+        barmanDirector.PreparedPiñaColada();
+        //barmanDirector.PreparedMargarita();
+
+
+/*        builder.AddIngredients("Tequila");
+        builder.SetAlchohol(1);
+        builder.Mix();
+        builder.Rest(1000);*/
+        //esto es un problema porque tendrias que memorizar los pasos para llamarlos n veces 
+
+        var preparedDrink = builder.GetPreparedDrink();
+        Console.WriteLine(preparedDrink.Result);
     }
 }
 
