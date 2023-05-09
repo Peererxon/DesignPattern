@@ -3,6 +3,7 @@ using DesignPatterns.Repository;
 using DessigPatternsAsp.Configuration;
 using Microsoft.EntityFrameworkCore;
 using Tools.Earn;
+using Tools.Generator;
 
 var builder = WebApplication.CreateBuilder(args);
 ConfigurationManager configuration = builder.Configuration;
@@ -31,6 +32,8 @@ builder.Services.AddDbContext<DesingpatternContext>( options=>
 // esto hace que el controlador tenga el mismo objeto
 builder.Services.AddScoped(typeof(IRepository<>), typeof( Repository<>));
 builder.Services.AddScoped<IUnitOfWork,UnitOfWork>();
+// en los patrones creacionales no importa si se inyecta por medio de la clase directamente, porque estan hechos para crear
+builder.Services.AddScoped<GeneratorConcreteBuilder>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

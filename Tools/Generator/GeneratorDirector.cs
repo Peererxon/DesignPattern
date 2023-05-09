@@ -11,7 +11,7 @@ namespace Tools.Generator
 
         private IBuilderGenerator _generatorBuilder;
 
-        GeneratorDirector(IBuilderGenerator generatorBuilder)
+        public GeneratorDirector(IBuilderGenerator generatorBuilder)
         {
             SetBuilder(generatorBuilder);
         }
